@@ -107,7 +107,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({ 
             template: 'source/html/index.html',
-            filename: "/html/[name].html" 
+            filename: "[name].html" 
         })
     ],
 
