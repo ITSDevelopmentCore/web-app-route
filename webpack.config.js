@@ -8,7 +8,7 @@ module.exports = {
     mode: 'development',
 
     entry: {
-        main: './source/main/index.js',
+        index: './source/main/index.js',
     },
 
     output: {
@@ -107,7 +107,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({ 
             template: 'source/html/index.html',
-            filename: "[name].html" 
+            filename: "/html/[name].html" 
         })
     ],
 
