@@ -17,10 +17,10 @@
     "url": "https://github.com/ITSDevelopmentCore/web-app-route/issues"
   },
   "homepage": "https://github.com/ITSDevelopmentCore/web-app-route#readme",
-
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",

@@ -1,7 +1,9 @@
 import React from "react"
 import * as ReactDOM from 'react-dom/client';
 
-import App from "../components/App";
+import MapButton from "../components/MapButton";
+import PanelButtons from "../components/ButtonsPanel";
+
 
 import style from "../css/index.css"
 
@@ -10,13 +12,26 @@ import style from "../css/index.css"
 import avatar from "../assets/images/avatar.png"
 
 
+initializeApp();
 render();
+
+
+function initializeApp()
+{
+    
+}
 
 function render()
 {
     const root = ReactDOM.createRoot(
         document.getElementById('root')
     );
-    const element = <App></App>;
-    root.render(element);
+    const mapButton = <MapButton></MapButton>;
+    root.render(mapButton);
+
+    const root2 = ReactDOM.createRoot(
+        document.getElementById("root2")
+    );
+    const buttonPanel = <PanelButtons></PanelButtons>;
+    root2.render(buttonPanel);
 }
