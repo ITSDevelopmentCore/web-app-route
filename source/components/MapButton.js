@@ -6,7 +6,7 @@ import { BsFillPinMapFill } from 'react-icons/bs';
 export default function MapButton() {
 
     return (
-        <div className="p-3 h-11 bg-blue-400 border-2 rounded-xl">
+        <div className="p-3 h-11 ripple-bg-blue-400 border-2 rounded-xl relative">
 
             <BsFillPinMapFill className="absolute" style={{ color: 'white', size: '50px' }}></BsFillPinMapFill>
 

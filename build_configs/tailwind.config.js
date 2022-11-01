@@ -1,11 +1,19 @@
 module.exports = {
   content: ['./source/**/*.{js,jsx,html}'],
   theme: {
+
+    ripple: theme => ({
+      colors: theme('colors')
+    }),
+
     extend: {
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'] 
+        'roboto': ['Roboto', 'sans-serif']
       },
-    },
+    }
+
   },
-  plugins: []
+  plugins: [
+    require('tailwindcss-ripple')()
+  ]
 }

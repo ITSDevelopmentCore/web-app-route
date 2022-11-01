@@ -11,15 +11,7 @@ import style from "../css/index.css"
 // Static images import
 import avatar from "../assets/images/avatar.png"
 
-
-initializeApp();
 render();
-
-
-function initializeApp()
-{
-    
-}
 
 function render()
 {

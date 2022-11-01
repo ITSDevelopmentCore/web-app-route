@@ -10,9 +10,9 @@ export default function ButtonsPanel() {
     return (
 
         <div className="flex space-x-2 mt-2">
+            
 
-
-            <div className="p-3 h-11 bg-sky-400 border rounded-xl flex basis-1/2">
+            <div className="p-3 h-11 ripple-bg-sky-400 border rounded-xl flex basis-1/2 relative">
 
                 <AiOutlineMessage className="absolute" style={{ color: 'white', size: '50px' }}></AiOutlineMessage>
 
@@ -23,7 +23,7 @@ export default function ButtonsPanel() {
             </div>
 
 
-            <div className="p-3 h-11 bg-blue-800 border rounded-xl flex basis-1/2">
+            <div className="p-3 h-11 ripple-bg-blue-800 border rounded-xl flex basis-1/2 relative">
 
                 <IoIosCall className="absolute" style={{ color: 'white', size: '50px' }}></IoIosCall>
 
